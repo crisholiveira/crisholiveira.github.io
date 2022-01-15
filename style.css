@@ -86,12 +86,16 @@
 .icons-skills {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
-.icons-skills i {
-      
-    font-size: 100px;
-    padding: 50px 30px;
+.icons-skills div {
+     margin: 2rem;
+}
+
+.icons-skills i {      
+    font-size: 8rem; 
     
 }
 
@@ -123,14 +127,40 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.projetos p {
+    background-color: greenyellow;
+    margin-top: 200px;
+    min-height: 2.5rem;
+    width: 80%;
+    text-align: center;
+    padding: 0.5rem;
+}
 .projeto1 {
    background-size: cover;
    background-image: url('./img/projetoSpa.PNG');
    width: 500px;
+   min-width: 300px;
    height: 300px;
    margin: 40px;
    
 }
+.projeto2 {
+    background-size: cover;
+    background-image: url('./img/portfolio.PNG');
+    width: 500px;
+    height: 300px;
+    margin: 40px;
+    
+ }
+ .projeto3 {
+    background-size: cover;
+    background-image: url('./img/speedlog.PNG');
+    width: 500px;
+    height: 300px;
+    margin: 40px;
+    
+ }
 
 
 /*container formação*/
@@ -138,7 +168,7 @@
 .formacao-cursos {
     
     
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 40px;
     color: white;
     background-color: black;
